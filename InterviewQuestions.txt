@@ -1,0 +1,73 @@
+*****************Interview Questions***************************
+1. What is cloud computing?
+2. What is CloudHub?
+3. Difference between traits and resourceType
+4. Difference between traits and fragments and library
+5. How to import traits, library , resourceType, datatype etc. in RAML?
+6. Difference flow, private, and sub flow.
+7. What is scatter gather and it's usage?
+8. Difference between foeach and parallel foeach scope, also the behabiour of payload and variables inside and ouside of these scope.
+9. What is Batch Job and it's usage?
+10. What is autodiscoveryId and it's usage?
+11. What is rate limiting, rate limiting SLA based and throttling policies in mule?
+12. What is anypoint flex gateway?
+13. What is spike control policy?
+14. What is basic authentication?
+15. What is difference between authentication and authorization? if you want to login server using pass that is authentication and if you want authorization of particular resource in that server that is authorization.
+16. What is data integrity and confidentiality?without manipulate data as it is send the data to target system that is called data integrity and we have to provide certain confidentiality to data that is confidentiality
+17. What is Keystore and truststore?
+18. What is RAML and it's usage?
+19. What is API led connectivity approach and it's layer?
+20. What is partner manager?
+21. What is audit logs?
+22. What is API Kit router?
+23. what is lookup()?
+24. Define anypoint Platform and API Manager.
+25. How to convert array into string and vice-versa?
+26. Use of flatten, groupBy,splitBy,joinBy
+27. Define async scope and it's usage.
+28. What is VM connector and it's queues?
+29. What is DevKit?custom connector created
+30. what is Mulesoft default error handling?
+===31. What is access management, design center, exchange, exchange queue, CI/CD pipe line, API governance?
+===32. Whta is inner and outer join?
+33. Difference between API Kit router and round robin.
+34. What is the output of scatter gather if we have same variables in all instances?
+35. What is proxy API and it's usage?
+36. Difference between IP Blacklist and WightList.
+37. swipe two numbers
+38. Find the odd number from array---%dw 2.0
+output application/json
+var arr= [1,2,3,4,5,6]
+---
+arr filter (item, index) -> (mod(item,2)==0)
+39. Difference between error and exception handling.
+40. Object store
+===============================================================
+=========Cognizant interview questions=========================
+1. Explain your current project(only funcationality).
+2. In a dataweave we have exp date, DOJ, DOB etc and have to map in same format then what we will do?(writing same logics at all mapping or something else)?
+3. Why we use circuit breaker? If target system is down then how circuit breaker work?
+4. Why we use VM connector instead of flow reference ?
+5. In Munit, if we have two transform message before and after requestor and the transform message after requestor maps data which comes from the requestor as a response.Then how we will perform the Munit for this type of scenario?
+6. In a main flow we have 5 transform message and have same mapping logs, then how can we perform code reusability over here?
+7. Why we use lookup function and give one scenario where you use it?
+8. Can we create and  import customised function at different places and how can we do?
+9. Explain how can we work with flatfile ?
+10. In the produnction support if any issue raise/ticket(P1,P2,P3,P4), then how you react and what's your initial step?
+
+================Accenture interview questions======================
+1.if there is changes in RAML without importing to anypoint studio how can update the RAML file studio-using sync
+2.on error propagate and on error continue- main flow contain on error continue and sub flow contain on error propagate how will be throw the error if error occur in on error propagate.
+3.employee data contain in array format how we can separate using department name .it having 3 department
+4.batch job and how to process failure record
+5.what is difference between foreach and batch job
+6.what is differnce between SOAP and RAML
+7.in production if we want you change Vcore size then how we will do that with zerodowntime
+8.what is difference between RAML and YAML
+9.what is cache scope
+10.how to write code for currency convertion change from EUR to USD
+11.How RAML will be (expose) Publish Public
+12.CI/CD
+13.Explain all components of Munit
+14.which Git Repository Version you have been worked
